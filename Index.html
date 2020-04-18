@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Calculadora Web</title>
+</head>
+<body>
+
+    <font face="Cambria">
+        <div align="center">
+            <h1>Calculadora</h1>
+            <br>
+            <img src="https://cdn6.aptoide.com/imgs/4/9/4/494cb40747d1bbf0863791165f5c3863_icon.png?w=240" width="200" height="200">
+            <br><br>
+        </div>
+    </font>
+    <div align="center">
+        <form method="post" action="operar.php">
+            <label for=" n1">Valor 1</label>
+            <input type="text" name="n1" id="n1" placeholder="Ingrese el primer valor" />
+            <br><br>
+            <label for=" n2">Valor 2</label>
+            <input type="text" name="n2" id="n2" placeholder="Ingrese el segundo valor" />
+            <br><br>
+            <select name="operación">
+                <option value="1">SUMA</option>
+                <option value="2">RESTA</option>
+                <option value="3">MULTIPLICACIÓN</option>
+                <option value="4">DIVISIÓN</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Calcular" />
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <font color="white">
+            <footer>
+                María Amperez y Josué Perdomo &copy; 2020
+            </footer>
+        </font>
+    </div>
+</body>
+</html>
